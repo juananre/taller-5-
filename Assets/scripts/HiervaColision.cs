@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HiervaColision : MonoBehaviour
 {
-    [SerializeField] ParticleSystem particula;
+    
     public int mexicoEsen;
     public int CentroEsen;
     public int SurEsen;
@@ -13,12 +13,14 @@ public class HiervaColision : MonoBehaviour
 
     Transform fogata;
     Light luz;
+    
 
 
     public void Awake()
     {
         fogata=GetComponent<Transform>();
         luz = GetComponent<Light>();
+        
     }
    
 
@@ -29,9 +31,9 @@ public class HiervaColision : MonoBehaviour
             
             Invoke(nameof(CambiarEscena_Mexico), tem);
             luz.enabled = true;
+            
 
-
-            print("pene");
+            print("holi");
 
         }
 
