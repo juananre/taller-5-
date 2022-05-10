@@ -12,6 +12,8 @@ TagManager:
   - LetraM
   - instruM
   - muro
+  - ecsenarioM
+  - cesta
   layers:
   - Default
   - TransparentFX

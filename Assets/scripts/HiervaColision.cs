@@ -53,13 +53,7 @@ public class HiervaColision : MonoBehaviour
 
         }
     }
-    /*  private void OnTriggerEnter(Collider other)
-     {
-         if (other.gameObject.tag=="mexico") 
-         {
-             print("margua");
-         }
-     }*/
+   
 
     public void CambiarEscena_Centro()
     {
