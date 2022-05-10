@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 2003026980}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_LocalPosition.x
@@ -303,6 +303,50 @@ Transform:
   m_Father: {fileID: 2059551368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 4.465, y: 0, z: 0}
+--- !u!1 &86398973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 86398974}
+  - component: {fileID: 86398975}
+  m_Layer: 0
+  m_Name: maru lado (1)
+  m_TagString: muro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &86398974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86398973}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.334, y: 0.08230141, z: -0.108}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &86398975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86398973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
 --- !u!1 &137175487
 GameObject:
   m_ObjectHideFlags: 0
@@ -14883,6 +14927,94 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &730467679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730467680}
+  - component: {fileID: 730467681}
+  m_Layer: 0
+  m_Name: muro fondo (1)
+  m_TagString: muro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &730467680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730467679}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.67422, y: 0.08230141, z: -0.3069}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &730467681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730467679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
+--- !u!1 &753954583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 753954584}
+  - component: {fileID: 753954585}
+  m_Layer: 0
+  m_Name: muro superior
+  m_TagString: muro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &753954584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753954583}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.91, y: 0.544, z: 0.203}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!65 &753954585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753954583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
 --- !u!1 &996299334
 GameObject:
   m_ObjectHideFlags: 0
@@ -14895,7 +15027,7 @@ GameObject:
   - component: {fileID: 996299335}
   m_Layer: 0
   m_Name: muro fondo
-  m_TagString: Untagged
+  m_TagString: muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14911,8 +15043,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.361053, y: 3.8217506, z: 1}
-  m_Center: {x: -1.0379343, y: 0.28205347, z: 0}
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
 --- !u!4 &996299336
 Transform:
   m_ObjectHideFlags: 0
@@ -14920,10 +15052,90 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996299334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.02, y: 0, z: 1.894}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.67422, y: 0.08230141, z: 1.026}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
   m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1195444325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195444326}
+  - component: {fileID: 1195444327}
+  m_Layer: 0
+  m_Name: maru lado
+  m_TagString: muro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195444326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195444325}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.276, y: 0.08230141, z: -0.108}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1195444327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195444325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
+--- !u!1 &1361045051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361045052}
+  m_Layer: 0
+  m_Name: muros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361045052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361045051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.47672057, y: -0.08230141, z: 0.3024661}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 996299336}
+  - {fileID: 1195444326}
+  - {fileID: 86398974}
+  - {fileID: 730467680}
+  - {fileID: 753954584}
+  - {fileID: 2003638062}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14996,7 +15208,7 @@ PrefabInstance:
       objectReference: {fileID: 2003026980}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15288,11 +15500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7498140072097159802, guid: 7963a7582100b514b951ddac53b04146, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.177
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: 7498140072097159802, guid: 7963a7582100b514b951ddac53b04146, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.749
+      value: -0.039
       objectReference: {fileID: 0}
     - target: {fileID: 7498140072097159802, guid: 7963a7582100b514b951ddac53b04146, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15531,6 +15743,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3904275953709372426, guid: a437a59870641ac409ebabff66a4dfa0, type: 3}
   m_PrefabInstance: {fileID: 8878251472002188249}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2003638061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003638062}
+  - component: {fileID: 2003638063}
+  m_Layer: 0
+  m_Name: muro inferior
+  m_TagString: muro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2003638062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003638061}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.839, y: -0.372, z: 0.203}
+  m_LocalScale: {x: 0.20756, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1361045052}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!65 &2003638063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003638061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.361053, y: 0.9207849, z: 0.32206833}
+  m_Center: {x: -1.0379341, y: 0.33438715, z: -0.33896583}
 --- !u!4 &2059551368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
@@ -15803,7 +16059,7 @@ PrefabInstance:
       objectReference: {fileID: 2003026980}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15876,11 +16132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3904275953709372426, guid: a437a59870641ac409ebabff66a4dfa0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.208
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 3904275953709372426, guid: a437a59870641ac409ebabff66a4dfa0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.749
+      value: 0.63
       objectReference: {fileID: 0}
     - target: {fileID: 3904275953709372426, guid: a437a59870641ac409ebabff66a4dfa0, type: 3}
       propertyPath: m_LocalRotation.w
