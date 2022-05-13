@@ -48,17 +48,17 @@ public class hiervasEaferas : MonoBehaviour
             if (gameObject.tag == "mexico")
             {
                 rb.velocity = Vector3.zero;
-                transform.position = new Vector3(0, 0.126f, 0.1f);
+                transform.position = new Vector3(-0.213f, 0.126f, 0.1f);
             }
             else if (gameObject.tag == "Sur")
             {
                 rb.velocity = Vector3.zero;
-                transform.position = new Vector3(-0.213f, 0.126f, 0.1f);
+                transform.position = new Vector3(0.204f, 0.126f, 0.1f); 
             }
             else if (gameObject.tag == "Centro")
             {
                 rb.velocity=Vector3.zero;
-                transform.position = new Vector3(0.204f, 0.126f, 0.1f);
+                transform.position = new Vector3(0, 0.126f, 0.1f); 
             }
 
         }
