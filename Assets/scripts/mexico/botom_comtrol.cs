@@ -12,6 +12,7 @@ public class botom_comtrol : MonoBehaviour
     [SerializeField] GameObject ecsenario;
     [SerializeField] private int retorno;
     [SerializeField] GameObject botonRegreso;
+    [SerializeField] GameObject mesajeResgreso;
 
     bool vestu = true;
     bool letr = true;
@@ -25,6 +26,7 @@ public class botom_comtrol : MonoBehaviour
         if (contador==4)
         {
             botonRegreso.SetActive(true);
+            mesajeResgreso.SetActive(true);
         }
 
     }
