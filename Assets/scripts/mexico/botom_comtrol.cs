@@ -26,7 +26,6 @@ public class botom_comtrol : MonoBehaviour
         if (contador==4)
         {
             botonRegreso.SetActive(true);
-
             mesajeResgreso.SetActive(true);
         }
 
