@@ -146,6 +146,18 @@ PrefabInstance:
       propertyPath: posicion
       value: 
       objectReference: {fileID: 2141916743}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_sur
+      value: 
+      objectReference: {fileID: 518745240}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_centro
+      value: 
+      objectReference: {fileID: 1927007081}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_mexico
+      value: 
+      objectReference: {fileID: 2059551368}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -15919,6 +15931,18 @@ PrefabInstance:
       propertyPath: posicion
       value: 
       objectReference: {fileID: 2141916743}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_sur
+      value: 
+      objectReference: {fileID: 518745240}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_centro
+      value: 
+      objectReference: {fileID: 1927007081}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_mexico
+      value: 
+      objectReference: {fileID: 2059551368}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17170,6 +17194,18 @@ PrefabInstance:
       propertyPath: posicion
       value: 
       objectReference: {fileID: 2141916743}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_sur
+      value: 
+      objectReference: {fileID: 518745240}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_centro
+      value: 
+      objectReference: {fileID: 1927007081}
+    - target: {fileID: 8249191657030909124, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: posicion_mexico
+      value: 
+      objectReference: {fileID: 2059551368}
     - target: {fileID: 8824124014189578005, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_RootOrder
       value: 0
