@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 23a7dd8bf7d2b9541afa77c543fe8f7d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1ff3d7f567834df4889520ac11e7774c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1610438, g: 0.30063322, b: 0.3262193, a: 1}
+  m_IndirectSpecularColor: {r: 0.08286225, g: 0.08156858, b: 0.087580495, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -661,6 +661,8 @@ GameObject:
   - component: {fileID: 1776077984}
   - component: {fileID: 1776077983}
   - component: {fileID: 1776077981}
+  - component: {fileID: 1776077982}
+  - component: {fileID: 1776077980}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -668,6 +670,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!45 &1776077980
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776077979}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 1ff3d7f567834df4889520ac11e7774c, type: 2}
 --- !u!81 &1776077981
 AudioListener:
   m_ObjectHideFlags: 0
@@ -676,6 +687,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776077979}
   m_Enabled: 1
+--- !u!114 &1776077982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776077979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1fe71bce4c30741a86d2cdad317dd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotateSpeed: 0.8
 --- !u!124 &1776077983
 Behaviour:
   m_ObjectHideFlags: 0
@@ -798,7 +822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBF quieres recordar ?"
+  m_text: "\xBFquieres recordar ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
