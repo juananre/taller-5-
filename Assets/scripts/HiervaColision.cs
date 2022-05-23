@@ -31,9 +31,6 @@ public class HiervaColision : MonoBehaviour
             
             Invoke(nameof(CambiarEscena_Mexico), tem);
             luz.enabled = true;
-            
-
-            print("holi");
 
         }
 
@@ -41,7 +38,7 @@ public class HiervaColision : MonoBehaviour
         {
             Invoke(nameof(CambiarEscena_Centro), tem);
             luz.enabled = true;
-            print("rojo");
+            
 
         }
 
@@ -49,7 +46,7 @@ public class HiervaColision : MonoBehaviour
         {
             Invoke(nameof(CambiarEscena_Sur), tem);
             luz.enabled = true;
-            print("gris");
+            
 
         }
     }
