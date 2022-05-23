@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14114577, g: 0.24595132, b: 0.26270986, a: 1}
+  m_IndirectSpecularColor: {r: 0.13975373, g: 0.24350947, b: 0.2605352, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16165,9 +16165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a119c24f1da47164fa5068888a0afe9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiemp_Inicial_mexico: 5
-  tiemp_Inicial_sur: 26
-  tiemp_Inicial_norte: 47
+  tiemp_Inicial_mexico: 0
+  tiemp_Inicial_sur: 5
+  tiemp_Inicial_norte: 5
   general: {fileID: 142492828}
   audio_mex: {fileID: 8300000, guid: 87ce66d8c4c84864db244e07ecc4b8c4, type: 3}
   audio_sur: {fileID: 8300000, guid: 87ce66d8c4c84864db244e07ecc4b8c4, type: 3}
