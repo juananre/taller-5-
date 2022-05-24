@@ -14,6 +14,10 @@ public class botom_comtrol : MonoBehaviour
     [SerializeField] GameObject botonRegreso;
     [SerializeField] GameObject mesajeResgreso;
 
+    [SerializeField] private float tiempo_fate = 2f;
+
+    private Animator fade;
+
     bool vestu = true;
     bool letr = true;
     bool mus = true;
@@ -21,6 +25,12 @@ public class botom_comtrol : MonoBehaviour
 
     int contador = 0;
 
+
+    void Awake()
+    {
+        fade = GetComponentInChildren<Animator>();
+
+    }
     private void Update()
     {
         if (contador==4)
@@ -90,7 +100,13 @@ public class botom_comtrol : MonoBehaviour
 
     public void regreso()
     {
-        SceneManager.LoadScene(retorno);
+        StartCoroutine(fade_retorno(retorno));
     }
 
+    public IEnumerator fade_retorno(int retorno)
+    {
+        fade.SetTrigger("fade out");
+        yield return new WaitForSeconds(tiempo_fate);
+        SceneManager.LoadScene(retorno);
+    }
 }

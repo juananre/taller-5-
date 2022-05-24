@@ -11,6 +11,7 @@ public class HiervaColision : MonoBehaviour
     public int SurEsen;
     public float tem = 1f;
 
+    private Animator fade;
     Transform fogata;
     Light luz;
     
@@ -20,7 +21,8 @@ public class HiervaColision : MonoBehaviour
     {
         fogata=GetComponent<Transform>();
         luz = GetComponent<Light>();
-        
+        fade = GetComponentInChildren<Animator>();
+
     }
    
 
@@ -54,16 +56,34 @@ public class HiervaColision : MonoBehaviour
 
     public void CambiarEscena_Centro()
     {
-        SceneManager.LoadScene(CentroEsen);
+        StartCoroutine(fade_centro(CentroEsen));
     }
     public void CambiarEscena_Mexico()
     {
-        SceneManager.LoadScene(mexicoEsen);
+        StartCoroutine(fade_mex(mexicoEsen));
     }
     public void CambiarEscena_Sur()
     {
-        SceneManager.LoadScene(SurEsen);
+        StartCoroutine(fade_sur(SurEsen));
     }
 
+    public IEnumerator fade_centro(int CentroEsen)
+    {
+        fade.SetTrigger("fade out");
+        yield return new WaitForSeconds(tem);
+        SceneManager.LoadScene(CentroEsen);
+    }
+    public IEnumerator fade_sur(int SurEsen)
+    {
+        fade.SetTrigger("fade out");
+        yield return new WaitForSeconds(tem);
+        SceneManager.LoadScene(SurEsen);
+    }
+    public IEnumerator fade_mex(int mexicoEsen)
+    {
+        fade.SetTrigger("fade out");
+        yield return new WaitForSeconds(tem);
+        SceneManager.LoadScene(mexicoEsen);
+    }
 }
 
