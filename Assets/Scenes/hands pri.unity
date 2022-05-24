@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14042285, g: 0.24487859, b: 0.26201, a: 1}
+  m_IndirectSpecularColor: {r: 0.14247325, g: 0.24886835, b: 0.26617587, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16262,13 +16262,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a119c24f1da47164fa5068888a0afe9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiemp_Inicial_mexico: 0
+  tiemp_Inicial_mexico: 2
   tiemp_Inicial_sur: 5
   tiemp_Inicial_norte: 5
   general: {fileID: 142492828}
-  audio_mex: {fileID: 8300000, guid: 87ce66d8c4c84864db244e07ecc4b8c4, type: 3}
-  audio_sur: {fileID: 8300000, guid: 87ce66d8c4c84864db244e07ecc4b8c4, type: 3}
-  audio_centro: {fileID: 8300000, guid: 87ce66d8c4c84864db244e07ecc4b8c4, type: 3}
+  audio_mex: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
+  audio_sur: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
+  audio_centro: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
   esfera_mexico: {fileID: 603348137}
   esfera_sur: {fileID: 246973605}
   esfera_centro: {fileID: 646552725}
