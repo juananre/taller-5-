@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class botom_comtrol : MonoBehaviour
 {
+    [SerializeField] AudioSource general;
+    [SerializeField] AudioClip voz_retorno;
+    [SerializeField] private float tiempo_aparicion_boton = 1f;
+
+
     [SerializeField] GameObject vestuario;
     [SerializeField] GameObject letra;
     [SerializeField] GameObject musica;
@@ -35,8 +40,14 @@ public class botom_comtrol : MonoBehaviour
     {
         if (contador==4)
         {
-            botonRegreso.SetActive(true);
-            mesajeResgreso.SetActive(true);
+            general.PlayOneShot(voz_retorno);
+            tiempo_aparicion_boton -= Time.deltaTime;
+            if (tiempo_aparicion_boton<=0)
+            {
+                botonRegreso.SetActive(true);
+                mesajeResgreso.SetActive(true);
+            }
+           
         }
 
     }
