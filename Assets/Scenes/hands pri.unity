@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14247325, g: 0.24886835, b: 0.26617587, a: 1}
+  m_IndirectSpecularColor: {r: 0.14008641, g: 0.24345204, b: 0.26036593, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172989187}
     m_Modifications:
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Height
+      value: 0.85494286
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Radius
+      value: 0.4274714
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Center.z
+      value: -0.011198179
+      objectReference: {fileID: 0}
     - target: {fileID: -5830919917714349369, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_Mass
       value: 30
@@ -216,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_TagString
@@ -16143,6 +16155,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172989187}
     m_Modifications:
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Height
+      value: 0.8549429
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Radius
+      value: 0.4274714
+      objectReference: {fileID: 0}
     - target: {fileID: -5830919917714349369, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_Mass
       value: 30
@@ -16225,7 +16245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_TagString
@@ -17519,6 +17539,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172989187}
     m_Modifications:
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Height
+      value: 0.8549429
+      objectReference: {fileID: 0}
+    - target: {fileID: -7626684739011693062, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
+      propertyPath: m_Radius
+      value: 0.4274714
+      objectReference: {fileID: 0}
     - target: {fileID: -5830919917714349369, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_Mass
       value: 30
@@ -17601,7 +17629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
