@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class botom_comtrol : MonoBehaviour
 {
-    [SerializeField] AudioSource general;
-    [SerializeField] AudioClip voz_retorno;
-    [SerializeField] private float tiempo_aparicion_boton = 1f;
 
+    [SerializeField] AudioSource voz_retorno;
+    
+    
+    [SerializeField] private float tiempo_aparicion_boton = 1f;
 
     [SerializeField] GameObject vestuario;
     [SerializeField] GameObject letra;
@@ -30,18 +31,19 @@ public class botom_comtrol : MonoBehaviour
 
     int contador = 0;
 
-
+   
     void Awake()
     {
+        voz_retorno = GetComponent<AudioSource>();
         fade = GetComponentInChildren<Animator>();
-
     }
     private void Update()
     {
-        if (contador==4)
+        if (contador == 4)
         {
-            general.PlayOneShot(voz_retorno);
+            voz_retorno.enabled = true;
             tiempo_aparicion_boton -= Time.deltaTime;
+            
             if (tiempo_aparicion_boton<=0)
             {
                 botonRegreso.SetActive(true);
