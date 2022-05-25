@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8101996, g: 0.5480915, b: 0.35103312, a: 1}
+  m_IndirectSpecularColor: {r: 0.8104389, g: 0.5480941, b: 0.35101822, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -541,72 +541,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentHand: {fileID: 1511785916}
   attachmentPoint: 256
---- !u!1 &309827767
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 309827769}
-  - component: {fileID: 309827768}
-  m_Layer: 0
-  m_Name: Video Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!328 &309827768
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309827767}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8c26d5860b1f0f944b6ff603652e5043, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: d7363d0ef7003e649a72ebc98db56557, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
---- !u!4 &309827769
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309827767}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6145768, y: -1.3850923, z: 2.516848}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &315528600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5336407799798724152, guid: a4f31c9f6421beb42a81b0031924ff15, type: 3}
@@ -1281,7 +1215,6 @@ RectTransform:
   - {fileID: 1218948499}
   - {fileID: 1043420086}
   - {fileID: 682998427}
-  - {fileID: 1279364244}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0.321, y: 0.003, z: 0.947}
@@ -1445,7 +1378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7285225133422713833, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7285225133422713833, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1514,7 +1447,7 @@ PrefabInstance:
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: voz_retorno
       value: 
-      objectReference: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
+      objectReference: {fileID: 8300000, guid: 614fefec3711eda47aa0b6728de5177b, type: 3}
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: botonRegreso
       value: 
@@ -1523,6 +1456,10 @@ PrefabInstance:
       propertyPath: mesajeResgreso
       value: 
       objectReference: {fileID: 682998424}
+    - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
+      propertyPath: tiempo_aparicion_boton
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
 --- !u!1 &1043420085
@@ -1736,7 +1673,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 614fefec3711eda47aa0b6728de5177b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.394
   m_Pitch: 1
@@ -2150,13 +2087,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279364239}
-  m_LocalRotation: {x: -0.0000003745715, y: 0.7221681, z: -0.6917177, w: 0.00000064676954}
-  m_LocalPosition: {x: -319.94, y: -241.22, z: 13.03}
-  m_LocalScale: {x: 1.72, y: 1, z: 0.88000005}
+  m_LocalRotation: {x: -0.00000037677404, y: 0.72452193, z: -0.6892518, w: 0.0000006454887}
+  m_LocalPosition: {x: 0.06, y: -1.21, z: 12.83}
+  m_LocalScale: {x: 1.72, y: 1, z: 0.88}
   m_Children: []
-  m_Father: {fileID: 766172595}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 87.533, y: 179.998, z: -0.002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 87.142, y: 179.998, z: -0.002}
 --- !u!1001 &1363418850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2178,7 +2115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4910419949804180873, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4910419949804180873, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7725,7 +7662,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1894239480 stripped
 Transform:
@@ -8282,7 +8219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4095789290857040077, guid: 97a208e1c9af0864784c81213586aa70, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4095789290857040077, guid: 97a208e1c9af0864784c81213586aa70, type: 3}
       propertyPath: m_LocalPosition.x
