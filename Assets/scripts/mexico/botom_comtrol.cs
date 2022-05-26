@@ -18,7 +18,7 @@ public class botom_comtrol : MonoBehaviour
     [SerializeField] GameObject ecsenario;
     [SerializeField] private int retorno;
     [SerializeField] GameObject botonRegreso;
-    [SerializeField] GameObject mesajeResgreso;
+    
 
     [SerializeField] private float tiempo_fate = 2f;
 
@@ -47,7 +47,7 @@ public class botom_comtrol : MonoBehaviour
             if (tiempo_aparicion_boton<=0)
             {
                 botonRegreso.SetActive(true);
-                mesajeResgreso.SetActive(true);
+                
             }
            
         }
