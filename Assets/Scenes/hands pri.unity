@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13015288, g: 0.1656999, b: 0.17741936, a: 1}
+  m_IndirectSpecularColor: {r: 0.12907755, g: 0.16432118, b: 0.17607802, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20286,7 +20286,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -21144,9 +21144,9 @@ MonoBehaviour:
   tiemp_Inicial_sur: 5
   tiemp_Inicial_norte: 5
   general: {fileID: 142492828}
-  audio_mex: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
-  audio_sur: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
-  audio_centro: {fileID: 8300000, guid: c5bc53719866ae249a486337db6f45b8, type: 3}
+  audio_mex: {fileID: 0}
+  audio_sur: {fileID: 0}
+  audio_centro: {fileID: 0}
   esfera_mexico: {fileID: 603348137}
   esfera_sur: {fileID: 246973605}
   esfera_centro: {fileID: 646552725}
