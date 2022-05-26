@@ -1394,7 +1394,7 @@ PrefabInstance:
       objectReference: {fileID: 513583354}
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: retorno
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: ecsenario

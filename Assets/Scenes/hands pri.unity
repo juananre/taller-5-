@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_TagString
@@ -21139,7 +21139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_TagString
@@ -22273,9 +22273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa75b576dc70fd4daa6524d850be075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mexicoEsen: 1
-  CentroEsen: 2
-  SurEsen: 3
+  mexicoEsen: 2
+  CentroEsen: 3
+  SurEsen: 4
   tem: 1
 --- !u!1001 &1225848859379569214
 PrefabInstance:
@@ -22551,7 +22551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8824124014189578010, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e94dac06e1fa7a54a98179080f3c0247, type: 3}

@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 938088694}
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: retorno
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7285225133422713834, guid: f072cb7f762740d469b4e9cebdd70baf, type: 3}
       propertyPath: ecsenario
@@ -914,6 +914,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.04497128
       objectReference: {fileID: 0}
+    - target: {fileID: 8145196304024509195, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8570805170863969237, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -958,6 +962,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.08165075
       objectReference: {fileID: 0}
+    - target: {fileID: 8570805170863969241, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8570805170863969243, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -982,6 +990,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 27c3358371500e0459dafc19b39e9c81, type: 2}
+    - target: {fileID: 8570805171284517198, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8570805171284517199, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_Size.x
       value: 0.7613924
@@ -1082,6 +1094,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 27c3358371500e0459dafc19b39e9c81, type: 2}
+    - target: {fileID: 8570805171950103070, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8570805171950103071, guid: 264ef33579ab2cd40b8e3688b1d76275, type: 3}
       propertyPath: m_Size.x
       value: 0.74694085
