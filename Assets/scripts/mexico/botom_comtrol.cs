@@ -18,7 +18,9 @@ public class botom_comtrol : MonoBehaviour
     [SerializeField] GameObject ecsenario;
     [SerializeField] private int retorno;
     [SerializeField] GameObject botonRegreso;
-    
+
+    public float tiemp_seg;
+    public int tiempo_reinicio;
 
     [SerializeField] private float tiempo_fate = 2f;
 
@@ -57,25 +59,34 @@ public class botom_comtrol : MonoBehaviour
     public void ver_vestuario()
     {
         vestuario.SetActive(true);
+        tiemp_seg -= Time.deltaTime;
     }
     public void ver_letras()
     {
         letra.SetActive(true);
+        tiemp_seg -= Time.deltaTime;
     }
     public void ver_musica()
     {
         musica.SetActive(true);
+        tiemp_seg -= Time.deltaTime;
     }
     public void ver_ecenario()
     {
         ecsenario.SetActive(true);
+        tiemp_seg -= Time.deltaTime;
     }
 
 
 
     public void salir_vestuario()
     {
-        vestuario.SetActive(false);
+        if (tiemp_seg == 0)
+        {
+            vestuario.SetActive(false);
+            tiemp_seg = tiempo_reinicio;
+        }
+        
         if (vestu == true)
         {
             contador++;
@@ -85,7 +96,12 @@ public class botom_comtrol : MonoBehaviour
     }
     public void salir_letras()
     {
-        letra.SetActive(false);
+        if (tiemp_seg == 0)
+        {
+            letra.SetActive(false);
+            tiemp_seg = tiempo_reinicio;
+        }
+        
         if (letr == true)
         {
             contador++;
@@ -94,7 +110,12 @@ public class botom_comtrol : MonoBehaviour
     }
     public void salir_musica()
     {
-        musica.SetActive(false);
+        if (tiemp_seg == 0)
+        {
+            musica.SetActive(false);
+            tiemp_seg = tiempo_reinicio;
+        }
+        
         if (mus == true)
         {
             contador++;
@@ -103,7 +124,12 @@ public class botom_comtrol : MonoBehaviour
     }
     public void salir_ecenario()
     {
-        ecsenario.SetActive(false);
+        if (tiemp_seg == 0)
+        {
+            ecsenario.SetActive(false);
+            tiemp_seg = tiempo_reinicio;
+        }
+        
         if (esce == true)
         {
             contador++;
